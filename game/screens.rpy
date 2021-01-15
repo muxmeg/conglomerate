@@ -358,26 +358,38 @@ screen main_menu():
     ## заменять этот.
     tag menu
 
-    style_prefix "main_menu"
+    imagemap:
+        alpha False
+        ground "gui/main_menu.png"
+        idle "gui/mm1.png"
+        hover "gui/mm2.png"
+        hotspot (1490, 411, 1790, 473) action Start()
+        hotspot (1490, 473, 1790, 535) action ShowMenu("load")
+        hotspot (1490, 535, 1790, 596) action ShowMenu("preferences")
+        hotspot (1490, 596, 1790, 657) action ShowMenu("help")
+        hotspot (1490, 657, 1790, 719) action ShowMenu("about")
+        hotspot (1490, 719, 1790, 780) action Quit(confirm=True)
 
-    add gui.main_menu_background
+    #style_prefix "main_menu"
+
+    #add gui.main_menu_background
 
     ## Эта пустая рамка затеняет главное меню.
-    frame:
-        pass
+    #frame:
+    #    pass
 
     ## Оператор use включает отображение другого экрана в данном. Актуальное
     ## содержание главного меню находится на экране навигации.
-    use navigation
+    #use navigation
 
-    if gui.show_name:
+    #if gui.show_name:
 
-        vbox:
-            text "[config.name!t]":
-                style "main_menu_title"
+    #    vbox:
+    #        text "[config.name!t]":
+    #            style "main_menu_title"
 
-            text "[config.version]":
-                style "main_menu_version"
+    #        text "[config.version]":
+    #            style "main_menu_version"
 
 
 style main_menu_frame is empty
@@ -584,7 +596,7 @@ style about_label_text:
 ## как они почти одинаковые, оба реализованы по правилам третьего экрана —
 ## file_slots.
 ##
-## https://www.renpy.org/doc/html/screen_special.html#save 
+## https://www.renpy.org/doc/html/screen_special.html#save
 
 screen save():
 
