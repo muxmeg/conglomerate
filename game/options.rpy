@@ -64,7 +64,7 @@ define config.has_voice = True
 ## проигрываться в главном меню. Этот файл продолжит проигрываться во время
 ## игры, если не будет остановлен, или не начнёт проигрываться другой аудиофайл.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "audio/Menu.mp31"
 
 
 ## Переходы ####################################################################
@@ -123,7 +123,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## в то время как любая другая цифра — это количество символов, печатаемых в
 ## секунду.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 50
 
 
 ## Стандартная задержка авточтения. Большие значения означают долгие ожидания, а
