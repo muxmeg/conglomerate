@@ -363,7 +363,7 @@ screen main_menu():
         ground "gui/main_menu.png"
         idle "gui/mm1.png"
         hover "gui/mm2.png"
-        hotspot (1490, 411, 1790, 473) action Start()
+        hotspot (1490, 411, 1790, 473) action Start("start_scientist")
         hotspot (1490, 473, 1790, 535) action ShowMenu("load")
         hotspot (1490, 535, 1790, 596) action ShowMenu("preferences")
         hotspot (1490, 596, 1790, 657) action ShowMenu("help")
