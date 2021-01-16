@@ -63,10 +63,14 @@ image bg black = "#000"
 define d = dissolve
 transform center:
         xalign 0.5 yalign -0.2
+transform left:
+        xalign 0.1 yalign -0.2
+transform right:
+        xalign 0.8 yalign -0.2
 
 define sc = Character("Ученая", color="#FFFFFF")
 define sg = Character("Школьница", color="#FFFFFF")
-define rtn = Character("Возвращенец", color="#FFFFFF")
+define rtn = Character("Модору", color="#FFFFFF")
 define om = Character("Старик", color="#FFFFFF")
 define mrd = Character("Убийца", color="#FFFFFF")
 define sales = Character("Продавец", color="#FFFFFF")
