@@ -43,6 +43,7 @@ define om = Character("Старик", color="#FFFFFF")
 define mrd = Character("Убийца", color="#FFFFFF")
 define sales = Character("Продавец", color="#FFFFFF")
 define guard = Character("Охранник", color="#FFFFFF")
+define bf = Character("Такеши", color="#FFFFFF")
 define nvle = Character('', color="#FFFFFF", kind=nvl)
 
 
