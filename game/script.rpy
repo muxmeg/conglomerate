@@ -82,14 +82,4 @@ define unf = Character("Незнакомка", color="#FFFFFF")
 
 label start:
 
-    ""
-    #Часть без дозметра
-    show screen dozimetr
-    ""
-    #Часть с дозиметром
-    ###Убедиться в правильности пути
-    # play d_sound "audio/dozimetr.mp3"
-    # hide screen dozimetr
-    ""
-    #Вторая часть без дозиметра
     return
