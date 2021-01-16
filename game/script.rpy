@@ -16,6 +16,17 @@ init python:
         return Text(res, size=80, color=col, font='LCDNOVA.TTF'), 1
 init:
     image doza = DynamicDisplayable(dosv)
+    ###Блок сборки спрайтов
+    image alise_exmp = LiveComposite(
+    #Что с размерами?
+    (712, 1245),
+    #Сборщику - убедиться в правильности пути
+    (0,0), "images/alice/A/pose1.png",
+    (0,0), "images/alice/A/br1.png",
+    (0,0), "images/alice/A/ey1.png",
+    (0,0), "images/alice/A/rt1.png"
+    )
+    ###Конец блока сборки спрайтов
 screen dozimetr:
     add "d.png" pos(1500, 10)
     add "doza" pos(1530, 40)
