@@ -360,7 +360,7 @@ screen main_menu():
 
     imagemap:
         alpha False
-        ground "gui/main_menu.png"
+        ground "mm animated"
         idle "gui/mm1.png"
         hover "gui/mm2.png"
         hotspot (1490, 411, 1790, 473) action Start("start_scientist")
