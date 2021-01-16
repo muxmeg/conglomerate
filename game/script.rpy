@@ -45,6 +45,7 @@ define sales = Character("Продавец", color="#FFFFFF")
 define guard = Character("Охранник", color="#FFFFFF")
 define bf = Character("Такеши", color="#FFFFFF")
 define nvle = Character('', color="#FFFFFF", kind=nvl)
+define aka = Character("Акайо", color="#FFFFFF")
 
 
 label start:
