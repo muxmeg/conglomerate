@@ -3,7 +3,7 @@ init python:
     config.mouse = { 'default' : [ ('images/mouse.png', 0, 0)] }
     import random
     def dosv (*args):
-        d = random.randint(0,15)
+        d = random.randint(0,10)
         dd = random.randint(0,9)
         if d == 0 and dd == 0:
             dd = random.randint(1,9)
