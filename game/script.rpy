@@ -1,4 +1,5 @@
 init python:
+    renpy.music.register_channel("d_sound", "sfx", True)
     config.mouse = { 'default' : [ ('images/mouse.png', 0, 0)] }
     import random
     def dosv (*args):
@@ -51,6 +52,8 @@ label start:
     show screen dozimetr
     ""
     #Часть с дозиметром
+    ###Убедиться в правильности пути
+    play d_sound "audio/dozimetr.mp3"
     hide screen dozimetr
     ""
     #Вторая часть без дозиметра
