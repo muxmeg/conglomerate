@@ -36,9 +36,9 @@ init:
         repeat
 init:
     image mm animated b:
-        "images/bg/bg campfire.jpg"
+        "images/bg/bg campfire.jpg" with dissolve
         pause fire()[0]
-        "images/bg/bg campfire2.jpg"
+        "images/bg/bg campfire2.jpg" with dissolve
         pause fire()[1]
         repeat
 init 0:
