@@ -46,6 +46,7 @@ define guard = Character("Охранник", color="#FFFFFF")
 define bf = Character("Такеши", color="#FFFFFF")
 define nvle = Character('', color="#FFFFFF", kind=nvl)
 define aka = Character("Акайо", color="#FFFFFF")
+define sf = Character("Мари", color="#FFFFFF")
 
 
 label start:
