@@ -20,11 +20,18 @@ screen dozimetr:
     add "d.png" pos(1500, 10)
     add "doza" pos(1530, 40)
 
+define fade = Fade(0.5, 0.0, 0.5)
+image bg black = "#000"
+define d = dissolve
+
 define sc = Character("Ученая", color="#FFFFFF")
 define sg = Character("Школьница", color="#FFFFFF")
 define rtn = Character("Возвращенец", color="#FFFFFF")
 define om = Character("Старик", color="#FFFFFF")
 define mrd = Character("Убийца", color="#FFFFFF")
+define sales = Character("Продавец", color="#FFFFFF")
+define nvle = Character('', color="#FFFFFF", kind=nvl)
+
 
 label start:
 
