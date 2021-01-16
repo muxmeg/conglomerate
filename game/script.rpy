@@ -15,6 +15,25 @@ init python:
         else:
             col = '#fc2003'
         return Text(res, size=80, color=col, font='LCDNOVA.TTF'), 1
+    def fire(*args):
+        d = random.randrange(1,4)
+        dd = random.randrange(1,2)
+        return [d, dd]
+        fire()
+init:
+    image mm animated:
+        "images/bg/bg campfire.jpg" with dissolve
+        pause fire()[0]
+        "images/bg/bg campfire2.jpg" with dissolve
+        pause fire()[1]
+        repeat
+init:
+    image mm animated b:
+        "images/bg/bg campfire.jpg"
+        pause 0.1
+        "images/bg/bg campfire2.jpg"
+        pause 0.1
+        repeat
 init 0:
     image doza = DynamicDisplayable(dosv)
     ###Блок сборки спрайтов
