@@ -1,3 +1,10 @@
+label splashscreen:
+    scene red_flags with Dissolve(5.0)
+    with Pause(5)
+    scene bg campfire with Dissolve(5.0)
+    with Pause(1)
+    return
+
 init python:
     renpy.music.register_channel("d_sound", "sfx", True)
     config.mouse = { 'default' : [ ('images/mouse.png', 0, 0)] }
