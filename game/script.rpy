@@ -15,7 +15,7 @@ init python:
         else:
             col = '#fc2003'
         return Text(res, size=80, color=col, font='LCDNOVA.TTF'), 1
-init:
+init 0:
     image doza = DynamicDisplayable(dosv)
     ###Блок сборки спрайтов
     image alise_exmp = LiveComposite(
@@ -35,6 +35,8 @@ screen dozimetr:
 define fade = Fade(0.5, 0.0, 0.5)
 image bg black = "#000"
 define d = dissolve
+transform center:
+        xalign 0.5 yalign -0.2
 
 define sc = Character("Ученая", color="#FFFFFF")
 define sg = Character("Школьница", color="#FFFFFF")
@@ -45,6 +47,7 @@ define sales = Character("Продавец", color="#FFFFFF")
 define guard = Character("Охранник", color="#FFFFFF")
 define bf = Character("Такеши", color="#FFFFFF")
 define nvle = Character('', color="#FFFFFF", kind=nvl)
+
 
 
 label start:
