@@ -37,9 +37,9 @@ init:
 init:
     image mm animated b:
         "images/bg/bg campfire.jpg"
-        pause fire()[0]
+        pause 0.1
         "images/bg/bg campfire2.jpg"
-        pause fire()[1]
+        pause 0.1
         repeat
 init 0:
     image doza = DynamicDisplayable(dosv)
