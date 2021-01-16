@@ -68,6 +68,8 @@ define bf = Character("Такеши", color="#FFFFFF")
 define nvle = Character('', color="#FFFFFF", kind=nvl)
 define aka = Character("Акайо", color="#FFFFFF")
 define sf = Character("Мари", color="#FFFFFF")
+define un = Character("Незнакомец", color="#FFFFFF")
+define unf = Character("Незнакомка", color="#FFFFFF")
 
 
 
@@ -79,8 +81,8 @@ label start:
     ""
     #Часть с дозиметром
     ###Убедиться в правильности пути
-    play d_sound "audio/dozimetr.mp3"
-    hide screen dozimetr
+    # play d_sound "audio/dozimetr.mp3"
+    # hide screen dozimetr
     ""
     #Вторая часть без дозиметра
     return
