@@ -2,7 +2,7 @@ label start_epilog:
     "Эпилог"
     ###
     ###
-    call start_end
+    #call start_end
     ###
     ###
     return
