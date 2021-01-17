@@ -359,11 +359,40 @@ style navigation_button_text:
 ## Используется, чтобы показать главное меню после запуска игры.
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
+###
+
+init:
+    image f_m:
+        "images/m_f0.png" with dissolve
+        pause 5
+        "images/m_f1.png" with dissolve
+        pause 1
+        "images/m_f2.png" with dissolve
+        pause 1
+        "images/m_f3.png" with dissolve
+        pause 1
+        "images/m_f4.png" with dissolve
+        pause 1
+        "images/m_f5.png" with dissolve
+        pause 1
+        "images/m_f6.png" with dissolve
+        pause 1
+        "images/m_f7.png" with dissolve
+        pause 1
+        "images/m_f8.png" with dissolve
+        pause 1
+        "images/m_f9.png" with dissolve
+        pause 1
+        "images/m_f0.png" with dissolve
+        pause 5
+        repeat
+
 
 screen main_menu():
 
     ## Этот тег гарантирует, что любой другой экран с тем же тегом будет
     ## заменять этот.
+    
     tag menu
 
     imagemap:
@@ -378,6 +407,8 @@ screen main_menu():
         hotspot (1490, 657, 1790, 719) action ShowMenu("about")
         hotspot (1490, 719, 1790, 780) action Quit(confirm=True)
 
+
+    add "f_m" pos(0, 0)
     #style_prefix "main_menu"
 
     #add gui.main_menu_background
