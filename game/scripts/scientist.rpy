@@ -6,7 +6,7 @@ label start_scientist:
     $ renpy.music.stop()
     $ renpy.block_rollback()
 
-    scene bg city_road
+    scene bg city_road with d
     "Головная боль заставила меня остановить машину возле заправки. "
     "Я держалась уже более получаса, но моя сила воли достигла предела."
     play music "audio/Day.mp3" fadein 5
@@ -48,7 +48,7 @@ label start_scientist:
     "Несколько секунд поразмышляв, я схватила бутылку русской водки. "
     "Не люблю ее в чистом виде, но в случае если нужно будет согреться – пойдет."
 
-    # show silouette with d
+    show trader at center with d
     "На кассе я все же коротко приветствую улыбающегося мужчину. "
     "Может и не стоило вести себя настолько холодно, но разрывающая голову боль вызывает желание пропустить все социальные взаимодействия."
 
@@ -63,7 +63,7 @@ label start_scientist:
     "Поздравляю, ты только что стал 3700 с чем-то человеком, решившим, что у меня опечатка в документах! "
     "Только извини, но все призы уже были розданы до тебя!"
     sc "Все верно - меня зовут Элис."
-    # hide silouette with d
+    hide trader with d
     scene bg city_road with d
     "Я молча забираю сдачу и свои покупки, и иду назад в машину. "
 
@@ -118,7 +118,7 @@ label sc_market_stay:
     play music "audio/Day.mp3" fadein 5
     "Я выкидываю сигарету и вновь иду в магазин."
     scene bg market with d
-    # show silouette with d
+    show trader at center with d
     sales "Рад Вашему возвращению!"
     sales "Госпожа забыла что-то купить?"
     sc "Нет."
@@ -149,7 +149,7 @@ label sc_market_stay:
     sales "Большое спасибо! "
     sales "Обязательно, заходите к нам еще!"
 
-    # hide silouette with d
+    hide trader with d
     scene bg gas_station with fade
     "Я вышла из магазина, села в машину и отправилась дальше в Окуму. "
     scene bg road_woods with d
@@ -175,7 +175,7 @@ label sc_checkpoint:
     "И это делает этот поселок еще более зловещим."
 
     scene bg road_checkpoint with d
-    # show silouette with d
+    show guard at center with d
     play music "audio/Impressed Mind.mp3" fadein 5
     "Я подъехала к КПП, опустила окно, и предъявила документы подошедшему охраннику."
 
@@ -198,7 +198,7 @@ label sc_checkpoint:
     sc "Просто позови уже своего начальника - пусть взрослые пообщаются между собой. "
     sc "Справишься?"
 
-    # hide silouette with d
+    hide guard with d
     "Охранник краснеет, бледнеет, но все же достает рацию и начинает с кем-то разговаривать."
     "Может зря я так с ним? "
     "Все же парень ни в чем не виноват. "
@@ -206,7 +206,7 @@ label sc_checkpoint:
     "Может алкоголь все же не до конца вышел из крови?"
 
     scene bg road_checkpoint with fade
-    # show silouette with d
+    show guard at center with d
     "Охранник вернулся ко мне, очевидно не сильно довольный беседой."
 
     guard "Госпожа Такаяма. "
@@ -220,7 +220,7 @@ label sc_checkpoint:
     sc "Прошу извинить меня, если я показалась грубой."
     "Не думаю, что у меня получилось сильно исправить ситуацию, но лучше так чем никак."
 
-    # hide silouette with d
+    hide guard with d
 
     scene bg hall with d
     "В здании мне выдали запрошенное оборудование, не задавая при этом никаких вопросов."
@@ -455,7 +455,7 @@ label leave_car:
     "Я бы запомнила!"
     "Немного подумав, я присоединяюсь к незнакомцу в поиске валежника – раньше начнем, раньше закончим. "
 
-    show bg woods_grass_blue with fade
+    scene bg woods_grass_blue with fade
     "Пока он работает, я обращаю внимание, что его бьет мелкая дрожь. "
     "Кажется в отличие от меня, он действительно промок в этом болоте."
     sc "Тебе все же стоит выпить. "
@@ -940,7 +940,7 @@ label leave_loc_1:
     nvl hide d
 
     stop music fadeout 5
-    show bg metal_factory with d
+    show bg factory with d
     "И вот я стою перед своей целью. "
     "Электростанция светится в ночи, и считанные десятки метров отделяют ее от меня. "
     "Однако даже с этого расстояния я вижу, что вокруг электростанции ходят какие-то люди. "
