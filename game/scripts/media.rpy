@@ -20,6 +20,8 @@ init 1:
                 "images/characters/kitamura/A/br2.png"
             attribute unsure:
                 "images/characters/kitamura/A/br3.png"
+            attribute angry:
+                "images/characters/kitamura/A/br4.png"
 
         group mouth:
             attribute frown default:
@@ -55,6 +57,8 @@ init 1:
                 "images/characters/kitamura/B/br2.png"
             attribute unsure:
                 "images/characters/kitamura/B/br3.png"
+            attribute angry:
+                "images/characters/kitamura/B/br4.png"
 
         group mouth:
             attribute frown default:
@@ -100,6 +104,8 @@ init 1:
         group glasses:
             attribute glasses_on default:
                 "images/characters/oldman/A/glasses.png"
+            attribute glasses_shade:
+                "images/characters/oldman/A/glasses2.png"
 
 
     layeredimage rtn stand:

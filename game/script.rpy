@@ -64,15 +64,15 @@ define d = dissolve
 transform center:
         xalign 0.5 yalign -0.2
 transform left:
-        xalign 0.1 yalign -0.2
+        xalign 0.0 yalign -0.2
 transform right:
-        xalign 0.8 yalign -0.2
+        xalign 0.95 yalign -0.2
 
 define sc = Character("Ученая", color="#FFFFFF")
 define sg = Character("Киоко", color="#FFFFFF")
 define rtn = Character("Модору", color="#FFFFFF")
 define om = Character("Старик", color="#FFFFFF")
-define mrd = Character("Убийца", color="#FFFFFF")
+define mrd = Character("Китамура", color="#FFFFFF")
 define sales = Character("Продавец", color="#FFFFFF")
 define guard = Character("Охранник", color="#FFFFFF")
 define bf = Character("Такеши", color="#FFFFFF")
