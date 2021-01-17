@@ -252,16 +252,24 @@ screen quick_menu():
 
             xalign 0.5
             yalign 1.0
+###
+            #textbutton _("Назад") action Rollback()
+            #textbutton _("История") action ShowMenu('history')
+            #textbutton _("Пропуск") action Skip() alternate Skip(fast=True, confirm=True)
+            #textbutton _("Авто") action Preference("auto-forward", "toggle")
+            #textbutton _("Сохранить") action ShowMenu('save')
+            #textbutton _("Б.Сохр") action QuickSave()
+            #textbutton _("Б.Загр") action QuickLoad()
+            #textbutton _("Опции") action ShowMenu('preferences')
 
-            textbutton _("Назад") action Rollback()
-            textbutton _("История") action ShowMenu('history')
-            textbutton _("Пропуск") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Авто") action Preference("auto-forward", "toggle")
-            textbutton _("Сохранить") action ShowMenu('save')
-            textbutton _("Б.Сохр") action QuickSave()
-            textbutton _("Б.Загр") action QuickLoad()
-            textbutton _("Опции") action ShowMenu('preferences')
+        imagebutton idle "images/b_save_i.png" hover "images/b_save_a.png" xpos 1715 ypos 800 action ShowMenu('save')
+        imagebutton idle "images/b_qsave_i.png" hover "images/b_qsave_a.png" xpos 1715 ypos 850 action QuickSave()
+        imagebutton idle "images/b_qload_i.png" hover "images/b_qload_a.png" xpos 1715 ypos 900 action QuickLoad()
+        imagebutton idle "images/b_skip_i.png" hover "images/b_skip_a.png" xpos 1715 ypos 950 action Skip() alternate Skip(fast=True, confirm=True)
+        imagebutton insensitive "images/b_back_n.png" idle "images/b_back_i.png" hover "images/b_back_a.png" xpos 1715 ypos 1000 action Rollback()
+    
 
+###
 
 ## Данный код гарантирует, что экран быстрого меню будет показан в игре в любое
 ## время, если только игрок не скроет интерфейс.
