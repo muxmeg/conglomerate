@@ -325,3 +325,75 @@ init 1:
                 "images/characters/mari/B/rt4.png"
             attribute shout:
                 "images/characters/mari/B/rt5.png"
+
+    layeredimage sc front:
+        group pose:
+            attribute hands_down:
+                "images/characters/alice/A/pose2.png"
+            attribute hands_crossed:
+                "images/characters/alice/A/pose1.png"
+        group eyes:
+            attribute open default:
+                "images/characters/alice/A/ey1.png"
+            attribute wide_open:
+                "images/characters/alice/A/ey2.png"
+            attribute closed:
+                "images/characters/alice/A/ey3.png"
+
+        group eyebrows:
+            attribute calm default:
+                "images/characters/alice/A/br1.png"
+            attribute raised:
+                "images/characters/alice/A/br2.png"
+            attribute sad:
+                "images/characters/alice/A/br3.png"
+            attribute angry:
+                "images/characters/alice/A/br4.png"
+
+        group mouth:
+            attribute frown default:
+                "images/characters/alice/A/rt1.png"
+            attribute speak:
+                "images/characters/alice/A/rt2.png"
+            attribute smile:
+                "images/characters/alice/A/rt3.png"
+            attribute happy:
+                "images/characters/alice/A/rt4.png"
+            attribute shout:
+                "images/characters/alice/A/rt5.png"
+
+    layeredimage sc side:
+        group pose:
+            attribute hands_down:
+                "images/characters/alice/B/pose1.png"
+            attribute hands_crossed:
+                "images/characters/alice/B/pose2.png"
+        group eyes:
+            attribute open default:
+                "images/characters/alice/B/ey1.png"
+            attribute wide_open:
+                "images/characters/alice/B/ey2.png"
+            attribute closed:
+                "images/characters/alice/B/ey3.png"
+
+        group eyebrows:
+            attribute calm default:
+                "images/characters/alice/B/br1.png"
+            attribute raised:
+                "images/characters/alice/B/br2.png"
+            attribute sad:
+                "images/characters/alice/B/br3.png"
+            attribute angry:
+                "images/characters/alice/B/br4.png"
+
+        group mouth:
+            attribute frown default:
+                "images/characters/alice/B/rt1.png"
+            attribute speak:
+                "images/characters/alice/B/rt2.png"
+            attribute smile:
+                "images/characters/alice/B/rt3.png"
+            attribute happy:
+                "images/characters/alice/B/rt4.png"
+            attribute shout:
+                "images/characters/alice/B/rt5.png"
