@@ -420,6 +420,8 @@ label start_oldMan:
     # # н какая твоя любимая?
     # # ш книги шрекспира
 
-
+    ###
+    #call start_epilog
+    ###
 
     return
