@@ -1275,8 +1275,10 @@ label leave_loc_1:
     "Я настолько устала, что решила уже не спорить. "
     "А огонь все горел и горел."
 #####################
-
+    window hide
+    pause(2)
+    window auto
     ###
-    call start_returner
+    jump start_returner
     ###
     return

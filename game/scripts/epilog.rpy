@@ -1,6 +1,6 @@
 label start_epilog:
     stop music fadeout 5
-    scene bg black fade
+    scene bg black with fade
     # Черный экран
     "Окраины Токио. Ночь. Небольшой бар, расположившийся в темном полуподвале."
     scene bg gas_station_night
@@ -44,9 +44,13 @@ label start_epilog:
     "Хотелось лишь напиться в стельку, забыться и уснуть прямо в баре. В полном одиночестве."
     "И больше не просыпаться."
     "Никогда."
-
+    window hide
+    pause(2)
+    window auto
     "..."
-
+    window hide
+    pause(2)
+    window auto
     "Десять лет спустя здесь всё так же спокойно."
     scene bg temple_diner with d
     play music "audio/Edge of Kami.mp3" fadein 5
@@ -54,7 +58,6 @@ label start_epilog:
     "Он упокоился, но позволил воскреснуть мне. "
     "Дал шанс настоящему Кейчи, что исчез после аварии где-то в глубинах растоптанного сознания, встретить зрелость в здравом уме."
     "Рабочая рутина способна притупить любую боль."
-    scene bg temple_inside with d
     "Анабиоз зоны отчуждения позволил задуматься о том, кем же я стал, имею ли я, убийца со стажем, хотя бы теоретическую возможность отпустить грехи. "
     "На этот вопрос я нескоро найду ответы, а вот срок давности по большинству из моих преступлений через несколько лет просто истечет."
     scene bg farm_day with d
@@ -124,7 +127,7 @@ label start_epilog:
         sc "Если природа может адаптироваться, то и люди могут адаптироваться. "
         sc "А если могут люди, значит смогу и я."
         ###
-        call start_end
+        call start_end from _call_start_end
         ###
         return
 
@@ -184,7 +187,7 @@ label start_epilog:
 
     ###
     ###
-    call start_end
+    call start_end from _call_start_end_1
     ###
     ###
     return

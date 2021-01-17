@@ -829,7 +829,10 @@ label start_returner:
     "Ладно, была не была. "
     "Мы прошли мимо нескольких перекрестков, я сошел с дороги и последовал вслед за дедом в лес, оставив позади храм, арендованную 'Тойоту' с кучей пластинок на заднем сиденье, и родной дом."
     hide screen dozimetr
+    window hide
+    pause(2)
+    window auto
     ###
-    call start_murderer
+    jump start_schoolgirl
     ###
     return

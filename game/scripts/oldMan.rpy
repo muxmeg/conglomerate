@@ -44,14 +44,14 @@ label start_oldMan:
     om "Я здесь! Иди к на-ам!"
     "Кусты опять затряслись, и через несколько секунд Модору и ученая увидели перед собой незнакомца."
     play music "audio/Edge of Kami.mp3" fadein 5
-    show mrd back hands_out frown confused scary at right with d
+    show mrd back hands_out frown confused scary at very_right with d
     "Его руки и одежда были в крови, сам он стоял на месте, и, кажется, был испуган не меньше других, и внимательным взглядом изучал ученую и Модору."
     rtn "Что еще за..."
     "Модору вынул руки из карманов и, не отводя глаз от человека, привстал с пня. "
     "Ученая же cтиснула в кармане шокер и встала рядом с Модору."
     show oldman open calm smile at left with d
     om "Китамура-сан!"
-    show mrd stand hands_in frown unsure open at right with d
+    show mrd stand hands_in frown unsure open at very_right with d
     mrd "Неудобно получилось."
     "Старик прошел между ученой и Модору и с распростертыми объятьями направился к мужчине."
     show oldman open calm happy at left with d
@@ -62,7 +62,7 @@ label start_oldMan:
     om "Да все нормально, мы друг друга знаем."
     show oldman closed calm happy at left with d
     "Фуджимото пожал руку человеку в крови."
-    show mrd stand hands_in smile unsure open at right with d
+    show mrd stand hands_in smile unsure open at very_right with d
     mrd "Я же Вас запачкаю..."
     show oldman open calm smile at left with d
     om "Ничего страшного. Не бери в голову, Китамура-сан."
@@ -71,7 +71,7 @@ label start_oldMan:
     "Точно! Она видела его на болоте! Серийный маньяк что спас ее из трясины."
     "Ученая покрепче стиснула шокер. Здесь много людей, и если его не провоцировать, все должно обойтись мирно."
     sc "Вы весь в крови! Вы поранились?"
-    show mrd stand hands_in speak unsure closed at right with d
+    show mrd stand hands_in speak unsure closed at very_right with d
     mrd "Извините... Еще раз здравствуйте, да... Это не кровь. Вернее, это кровь..."
     stop music fadeout 5
     "Китамура что-то тихо доложил Фуджимото, и они оба скрылись в кустах."
@@ -91,7 +91,7 @@ label start_oldMan:
     "Да, так оно и есть. Китамура и Фуджимото приволокли тушу к входу в дом и бросили там же."
     "Очистив руки о снег, они подошли к кострищу."
 
-    show mrd stand hands_out smile unsure closed at right with d
+    show mrd stand hands_out smile unsure closed at very_right with d
     mrd "Меня зовут Китамура-сан... Мы ведь уже встречались."
     show sc front hands_down speak calm open at left with d
     sc "Здравствуй."
@@ -100,7 +100,7 @@ label start_oldMan:
     hide oldman with d
     show sc front hands_crossed frown calm open at left with d
     sc "Виделись, да."
-    show mrd stand hands_in smile calm open at right with d
+    show mrd stand hands_in smile calm open at very_right with d
     mrd "Китамура-сан, очень приятно."
     show rtn stand hands_in smile calm open at center with d
     rtn "Модору-сан."
@@ -116,7 +116,7 @@ label start_oldMan:
     "А Модору, словно не замечая неудобной обстановки, деловито скрутил себе самокрутку, а потом понял, что на него все смотрят."
     show rtn back hands_in happy raised open at center with d
     rtn "Кто-нибудь хочет? Американский табак."
-    show mrd stand hands_in happy calm open at right with d
+    show mrd stand hands_in happy calm open at very_right with d
     mrd "Да."
     show oldman closed calm happy at left with d
     om "Хочу."
@@ -143,7 +143,7 @@ label start_oldMan:
     show sc side hands_crossed speak angry open at left with d
     sc "Да. Что с кабаном произошло?"
 
-    show mrd stand hands_in frown unsure closed at right with d
+    show mrd stand hands_in frown unsure closed at very_right with d
     mrd "Да он это... Напал, в общем. Ну я его и..."
     "Китамура не закончил предложение, надеясь, что итак все понятно. "
     "Элис не стала его дальше расспрашивать и громко зевнула."
@@ -168,7 +168,7 @@ label start_oldMan:
     "Фуджимото как-то по-странному посмотрел на Китамуру. "
     "Вопрос он произнес с такой интонацией, будто это действительно был очень важный вопрос. "
     "Но Китамура отказался."
-    show mrd back hands_in smile unsure closed at right with d
+    show mrd back hands_in smile unsure closed at very_right with d
     mrd "Нет, не употребляю. С недавних пор."
     "Элис подняла бровь, но ничего не сказала."
     stop music fadeout 5
@@ -494,9 +494,11 @@ label start_oldMan:
     "Теперь она казалась для всех естественной."
     "Она была тем, что все так долго искали."
     "Тем, что всем было так необходимо."
-
+    window hide
+    pause(2)
+    window auto
     ###
-    call start_epilog
+    jump start_epilog
     ###
 
     return

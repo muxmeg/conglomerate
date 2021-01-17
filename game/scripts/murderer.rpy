@@ -1,6 +1,9 @@
 label start_murderer:
     #mrd
+    # music stop
+    scene bg woods_pines with d
     show screen dozimetr
+
     "Я бежал непонятно от кого. Просто бежал."
     "Чувство преследования никак не покидало меня."
     "Я боялся каждого шороха, треска сломанной ветки, шуршания листвы."
@@ -352,6 +355,6 @@ label start_murderer:
     "Единственный житель этих руин, настоятель Китамура."
 
     ###
-    call start_schoolgirl
+    jump start_schoolgirl
     ###
     return

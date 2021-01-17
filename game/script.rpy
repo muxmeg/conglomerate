@@ -64,23 +64,25 @@ define d = dissolve
 transform center:
         xalign 0.5 yalign -0.2
 transform left:
-        xalign 0.0 yalign -0.2
+        xalign 0.1 yalign -0.2
 transform right:
         xalign 0.95 yalign -0.2
+transform very_right:
+        xalign 1.15 yalign -0.2
 
-define sc = Character("Ученая", color="#FFFFFF")
-define sg = Character("Киоко", color="#FFFFFF")
-define rtn = Character("Модору", color="#FFFFFF")
-define om = Character("Старик", color="#FFFFFF")
-define mrd = Character("Китамура", color="#FFFFFF")
-define sales = Character("Продавец", color="#FFFFFF")
-define guard = Character("Охранник", color="#FFFFFF")
-define bf = Character("Такеши", color="#FFFFFF")
-define nvle = Character('', color="#FFFFFF", kind=nvl)
-define aka = Character("Акайо", color="#FFFFFF")
-define sf = Character("Мари", color="#FFFFFF")
-define un = Character("Незнакомец", color="#FFFFFF")
-define unf = Character("Незнакомка", color="#FFFFFF")
+define sc = Character("Ученая", color="#FFFFFF", what_drop_shadow = (2, 1,), who_drop_shadow = (2, 1,))
+define sg = Character("Киоко", color="#FFFFFF", what_drop_shadow = (2, 1,), who_drop_shadow = (2, 1,))
+define rtn = Character("Модору", color="#FFFFFF", what_drop_shadow = (2, 1,), who_drop_shadow = (2, 1,))
+define om = Character("Старик", color="#FFFFFF", what_drop_shadow = (2, 1,), who_drop_shadow = (2, 1,))
+define mrd = Character("Китамура", color="#FFFFFF", what_drop_shadow = (2, 1,), who_drop_shadow = (2, 1,))
+define sales = Character("Продавец", color="#FFFFFF", what_drop_shadow = (2, 1,), who_drop_shadow = (2, 1,))
+define guard = Character("Охранник", color="#FFFFFF", what_drop_shadow = (2, 1,), who_drop_shadow = (2, 1,))
+define bf = Character("Такеши", color="#FFFFFF", what_drop_shadow = (2, 1,), who_drop_shadow = (2, 1,))
+define nvle = Character('', color="#FFFFFF", kind=nvl, what_drop_shadow = (2, 1,), who_drop_shadow = (2, 1,))
+define aka = Character("Акайо", color="#FFFFFF", what_drop_shadow = (2, 1,), who_drop_shadow = (2, 1,))
+define sf = Character("Мари", color="#FFFFFF", what_drop_shadow = (2, 1,), who_drop_shadow = (2, 1,))
+define un = Character("Незнакомец", color="#FFFFFF", what_drop_shadow = (2, 1,), who_drop_shadow = (2, 1,))
+define unf = Character("Незнакомка", color="#FFFFFF", what_drop_shadow = (2, 1,), who_drop_shadow = (2, 1,))
 
 
 
