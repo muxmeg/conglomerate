@@ -287,5 +287,7 @@ label start_schoolgirl:
  sg " Киоко."
  om " И что же ты здесь делаешь одна Киоко?"
  sg " Думаю это сейчас не так важно..."
-
+###
+ call start_oldMan
+###
  return
