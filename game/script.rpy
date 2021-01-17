@@ -69,7 +69,7 @@ transform right:
         xalign 0.8 yalign -0.2
 
 define sc = Character("Ученая", color="#FFFFFF")
-define sg = Character("Школьница", color="#FFFFFF")
+define sg = Character("Киоко", color="#FFFFFF")
 define rtn = Character("Модору", color="#FFFFFF")
 define om = Character("Старик", color="#FFFFFF")
 define mrd = Character("Убийца", color="#FFFFFF")

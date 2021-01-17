@@ -267,7 +267,7 @@ screen quick_menu():
         imagebutton idle "images/b_qload_i.png" hover "images/b_qload_a.png" xpos 1715 ypos 900 action QuickLoad()
         imagebutton idle "images/b_skip_i.png" hover "images/b_skip_a.png" xpos 1715 ypos 950 action Skip() alternate Skip(fast=True, confirm=True)
         imagebutton insensitive "images/b_back_n.png" idle "images/b_back_i.png" hover "images/b_back_a.png" xpos 1715 ypos 1000 action Rollback()
-    
+
 
 ###
 
@@ -309,7 +309,7 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("Начать") action Start("start_returner")
+            textbutton _("Начать") action Start("start_schoolgirl")
 
         else:
 
@@ -371,7 +371,7 @@ screen main_menu():
         ground "mm animated"
         idle "gui/mm1.png"
         hover "gui/mm2.png"
-        hotspot (1490, 411, 1790, 473) action Start("start_returner")
+        hotspot (1490, 411, 1790, 473) action Start("start_schoolgirl")
         hotspot (1490, 473, 1790, 535) action ShowMenu("load")
         hotspot (1490, 535, 1790, 596) action ShowMenu("preferences")
         hotspot (1490, 596, 1790, 657) action ShowMenu("help")

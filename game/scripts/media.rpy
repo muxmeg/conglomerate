@@ -173,3 +173,155 @@ init 1:
                 "images/characters/rtn/B/rt4.png"
             attribute clenched:
                 "images/characters/rtn/B/rt5.png"
+
+    layeredimage sg front:
+        group pose:
+            attribute hands_down:
+                "images/characters/kioko/A/pose2a.png"
+            attribute hands_down_scarf:
+                "images/characters/kioko/A/pose2.png"
+            attribute hands_up:
+                "images/characters/kioko/A/pose1a.png"
+            attribute hands_up_scarf:
+                "images/characters/kioko/A/pose1.png"
+        group eyes:
+            attribute open default:
+                "images/characters/kioko/A/ey1.png"
+            attribute wide_open:
+                "images/characters/kioko/A/ey2.png"
+            attribute closed:
+                "images/characters/kioko/A/ey3.png"
+
+        group eyebrows:
+            attribute calm default:
+                "images/characters/kioko/A/br1.png"
+            attribute raised:
+                "images/characters/kioko/A/br2.png"
+            attribute sad:
+                "images/characters/kioko/A/br3.png"
+            attribute angry:
+                "images/characters/kioko/A/br4.png"
+
+        group mouth:
+            attribute frown default:
+                "images/characters/kioko/A/rt1.png"
+            attribute speak:
+                "images/characters/kioko/A/rt2.png"
+            attribute smile:
+                "images/characters/kioko/A/rt3.png"
+            attribute happy:
+                "images/characters/kioko/A/rt4.png"
+            attribute shout:
+                "images/characters/kioko/A/rt5.png"
+
+    layeredimage sg side:
+        group pose:
+            attribute hands_down:
+                "images/characters/kioko/B/pose2a.png"
+            attribute hands_down_scarf:
+                "images/characters/kioko/B/pose2.png"
+            attribute hands_up:
+                "images/characters/kioko/B/pose1a.png"
+            attribute hands_up_scarf:
+                "images/characters/kioko/B/pose1.png"
+        group eyes:
+            attribute open default:
+                "images/characters/kioko/B/ey1.png"
+            attribute wide_open:
+                "images/characters/kioko/B/ey2.png"
+            attribute closed:
+                "images/characters/kioko/B/ey3.png"
+
+        group eyebrows:
+            attribute calm default:
+                "images/characters/kioko/B/br1.png"
+            attribute raised:
+                "images/characters/kioko/B/br2.png"
+            attribute sad:
+                "images/characters/kioko/B/br3.png"
+            attribute angry:
+                "images/characters/kioko/B/br4.png"
+
+        group mouth:
+            attribute frown default:
+                "images/characters/kioko/B/rt1.png"
+            attribute speak:
+                "images/characters/kioko/B/rt2.png"
+            attribute smile:
+                "images/characters/kioko/B/rt3.png"
+            attribute happy:
+                "images/characters/kioko/B/rt4.png"
+            attribute shout:
+                "images/characters/kioko/B/rt5.png"
+
+    layeredimage sf side:
+        group pose:
+            attribute hands_down:
+                "images/characters/mari/A/pose1.png"
+            attribute hands_up:
+                "images/characters/mari/A/pose2.png"
+        group eyes:
+            attribute open default:
+                "images/characters/mari/A/ey1.png"
+            attribute wide_open:
+                "images/characters/mari/A/ey2.png"
+            attribute closed:
+                "images/characters/mari/A/ey3.png"
+
+        group eyebrows:
+            attribute calm default:
+                "images/characters/mari/A/br1.png"
+            attribute raised:
+                "images/characters/mari/A/br2.png"
+            attribute sad:
+                "images/characters/mari/A/br3.png"
+            attribute angry:
+                "images/characters/mari/A/br4.png"
+
+        group mouth:
+            attribute frown default:
+                "images/characters/mari/A/rt1.png"
+            attribute speak:
+                "images/characters/mari/A/rt2.png"
+            attribute smile:
+                "images/characters/mari/A/rt3.png"
+            attribute happy:
+                "images/characters/mari/A/rt4.png"
+            attribute clenched:
+                "images/characters/mari/A/rt5.png"
+
+    layeredimage sf front:
+        group pose:
+            attribute hands_down:
+                "images/characters/mari/B/pose1.png"
+            attribute hands_up:
+                "images/characters/mari/B/pose2.png"
+        group eyes:
+            attribute open default:
+                "images/characters/mari/B/ey1.png"
+            attribute wide_open:
+                "images/characters/mari/B/ey2.png"
+            attribute closed:
+                "images/characters/mari/B/ey3.png"
+
+        group eyebrows:
+            attribute calm default:
+                "images/characters/mari/B/br1.png"
+            attribute raised:
+                "images/characters/mari/B/br2.png"
+            attribute sad:
+                "images/characters/mari/B/br3.png"
+            attribute angry:
+                "images/characters/mari/B/br4.png"
+
+        group mouth:
+            attribute frown default:
+                "images/characters/mari/B/rt1.png"
+            attribute speak:
+                "images/characters/mari/B/rt2.png"
+            attribute smile:
+                "images/characters/mari/B/rt3.png"
+            attribute happy:
+                "images/characters/mari/B/rt4.png"
+            attribute shout:
+                "images/characters/mari/B/rt5.png"
