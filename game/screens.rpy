@@ -364,7 +364,7 @@ style navigation_button_text:
 init:
     image f_m:
         "images/m_f0.png" with dissolve
-        pause 5
+        pause 2
         "images/m_f1.png" with dissolve
         pause 1
         "images/m_f2.png" with dissolve
@@ -384,7 +384,33 @@ init:
         "images/m_f9.png" with dissolve
         pause 1
         "images/m_f0.png" with dissolve
-        pause 5
+        pause 1
+###
+        "images/m_f10.png" with dissolve
+        pause 0.5
+        "images/m_f11.png" with dissolve
+        pause 0.5
+        "images/m_f12.png" with dissolve
+        pause 0.5
+        "images/m_f13.png" with dissolve
+        pause 0.5
+        "images/m_f14.png" with dissolve
+        pause 0.5
+        "images/m_f15.png" with dissolve
+        pause 0.5
+        "images/m_f16.png" with dissolve
+        pause 0.5
+        "images/m_f17.png" with dissolve
+        pause 0.5
+        "images/m_f18.png" with dissolve
+        pause 0.5
+        "images/m_f19.png" with dissolve
+        pause 0.5
+        "images/m_f20.png" with dissolve
+        pause 0.5
+        "images/m_f0.png" with dissolve
+        pause 0.5
+###
         repeat
 
 
