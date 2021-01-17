@@ -21,7 +21,7 @@ init python:
             col = '#f5d60c'
         else:
             col = '#fc2003'
-        return Text(res, size=80, color=col, font='LCDNOVA.TTF'), 1
+        return Text(res, size=80, color=col, font='LCDNOVA.TTF'), 5
     def fire(*args):
         d = random.randrange(1,4)
         dd = random.randrange(1,2)
