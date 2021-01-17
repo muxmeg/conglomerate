@@ -421,7 +421,7 @@ label start_oldMan:
     # # ш книги шрекспира
 
     ###
-    #call start_epilog
+    call start_epilog
     ###
 
     return
