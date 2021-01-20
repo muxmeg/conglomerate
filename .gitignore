@@ -1,4 +1,5 @@
 **/*.rpyc
+**/*.bak
 /errors.txt
 /log.txt
 /traceback.txt

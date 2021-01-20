@@ -417,13 +417,7 @@ label start_schoolgirl:
  pause 3.2
  scene bg woods_campfire_night with open_eyes
 
- # show sf front hands_down open calm frown at gr with d
- # show sg front hands_down_scarf open calm frown at gl with d
-
-
  sf " Киоко!"
- # hide sg with d
- # hide sg with d
  "Всё произошло так быстро, я даже не успела понять. "
  "Ночь. "
  "Звёзды. "
@@ -432,7 +426,7 @@ label start_schoolgirl:
  "Я выбралась из спального мешка так быстро, как только смогла. "
  "И только когда мои глаза полностью открылись, стало понятно почему кричит Мари."
  pause 1.6
- # show bg pig1
+ scene cg pig1
  "Кабан."
  "Страшный дикий кабан. "
  "Он пришёл чтобы забрать нашу еду?! "
@@ -456,7 +450,7 @@ label start_schoolgirl:
  "С одной стороны трясина, с другой разъярённый звёрь."
  "Он визжал, хрюкал и бил копытом землю. "
  play sound "audio/sound/pig.mp3"
- # show bg pig2
+ scene cg pig2
  "Была, не была."
  play sound "audio/sound/jump.mp3"
  "Островок земли."
@@ -520,7 +514,7 @@ label start_schoolgirl:
 
  scene black with close_eyes
  pause 3.2
- # play sound "audio/sound/crybabycry.mp3"
+ play sound "audio/sound/crybabycry.mp3"
 
  play music "audio/Homeless at the Ruins.mp3" fadeout 1.6 fadein 1.6
 
@@ -556,9 +550,10 @@ label start_schoolgirl:
  om " Я, кстати, Фуджимото."
  sg " Киоко."
  om " И что же ты здесь делаешь одна Киоко?"
+ $ renpy.notify("Поздравляем, рут школьницы пройден!")
  sg " Думаю это сейчас не так важно..."
-
- window hide
- pause(2)
- window auto
- jump start_oldMan
+$ f1 = 1
+window hide
+pause(2)
+window auto
+return
