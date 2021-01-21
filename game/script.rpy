@@ -126,6 +126,7 @@ show bg snowfield with d
 if f1 and f2 and f3 and f4 and f:
     $ f = 0
     $ renpy.notify("Поздравляем, вам открыт рут старика!")
+    # renpy.imagemap is deprecated, use screens instead
     $ result = renpy.imagemap("cho3.png", "cho4.png", [
         (1, 1, 350, 1080, 1),
         (350, 1, 660, 1080, 2),
