@@ -123,24 +123,16 @@ label start:
 show screen g
 show bg snowfield with d
 "Пожалуйста,выберете героя повествования"
-if f1 and f2 and f3 and f4 and f:
-    $ f = 0
+window hide
+if persistent.route_scientist and persistent.route_sg and persistent.route_mrdr and persistent.route_rtn:
     $ renpy.notify("Поздравляем, вам открыт рут старика!")
-    # renpy.imagemap is deprecated, use screens instead
+    # TODO renpy.imagemap is deprecated, use screens instead
     $ result = renpy.imagemap("cho3.png", "cho4.png", [
         (1, 1, 350, 1080, 1),
         (350, 1, 660, 1080, 2),
         (661, 1, 940, 1080, 5),
         (941, 1, 1515, 1080, 3),
         (1516, 1, 1919, 1080, 4)
-    ], focus="imagemap")
-elif f1 and f2 and f3 and f4:
-  $ result = renpy.imagemap("cho3.png", "cho4.png", [
-    (1, 1, 350, 1080, 1),
-    (350, 1, 660, 1080, 2),
-    (661, 1, 940, 1080, 5),
-    (941, 1, 1515, 1080, 3),
-    (1516, 1, 1919, 1080, 4)
     ], focus="imagemap")
 else:
   $ result = renpy.imagemap("cho1.png", "cho2.png", [

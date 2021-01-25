@@ -238,7 +238,7 @@ label start_oldMan:
     sg "Вы, как и Фуджимото-сан, тоже все здесь живете?"
     show sc side hands_crossed frown calm open at left with d
     sc "Ха, нет!"
-    show mrd back hands_in closed confused smile at center with d
+    show mrd back hands_in open confused smile at center with d
     mrd "Я мимо проходил."
     rtn "Раньше жил, теперь уже нет."
     show sg side hands_down_scarf open sad frown at right with d

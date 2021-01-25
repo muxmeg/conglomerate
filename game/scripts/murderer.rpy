@@ -481,6 +481,7 @@ label start_murderer:
     hide oldman with d
     "Поклонившись, я отправился во тьму."
     $ renpy.notify("Поздравляем, рут убийцы пройден!")
+    $ persistent.route_mrdr = True
     "Чтобы, взвалив на плечи тяжкую ношу, вновь вернуться к свету."
     hide screen dozimetr
     "..."

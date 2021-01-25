@@ -1274,10 +1274,10 @@ label leave_loc_1:
     stop music fadeout 5
     hide screen dozimetr
     "Я настолько устала, что решила уже не спорить. "
+    $ persistent.route_scientist = True
+    $ persistent.route_scientist_bad_end = (scientist_anger > 0 or scientist_paranoia > 0)
     "А огонь все горел и горел."
 #####################
-
-    $ f2 = 1
     window hide
     pause(2)
     window auto

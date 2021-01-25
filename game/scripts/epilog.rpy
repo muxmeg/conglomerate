@@ -68,11 +68,10 @@ label start_epilog:
     scene bg black with fade
     "..."
 
-    if scientist_anger > 0 or scientist_paranoia > 0:
+    if persistent.route_scientist_bad_end:
         jump sc_end_2
     else:
         jump sc_end_1
-                ##Эпилог 1 паранойя <= 0 && агрессия <= 0
     label sc_end_1:
         stop music fadeout 5
         scene bg woods_road_2 with fade

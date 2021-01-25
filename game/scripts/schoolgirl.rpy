@@ -219,7 +219,6 @@ label start_schoolgirl:
  play sound "audio/sound/snowball.mp3"
  sg "Не попала! Не попала!"
  sf "Тебе просто повезло!"
- play sound "audio/sound/snowballplay.mp3"
  pause 1.6
  sf " Ну вот. Теперь я вся мокрая."
 
@@ -281,284 +280,285 @@ label start_schoolgirl:
  scene bg woods_campfire_night with d
  play music "audio/Anaemia.mp3" fadeout 1.6 fadein 1.6
 
- "Разобравшись с костром и палатками, мы принялись за еду. В рюкзаках было достаточно сладостей, "
- "но начался совместный ужин с бенто. Рис, рыба, овощи. "
- "Кажется, ещё теплые. "
- "После долгой прогулки любая еда будет казаться особенно вкусной. А эта была просто божественна."
- sf "Киоко, у тебя осталась вода?"
- sg "Да. А что случилось с твоей?"
- sf " Закончилась."
+"Разобравшись с костром и палатками, мы принялись за еду. В рюкзаках было достаточно сладостей, "
+"но начался совместный ужин с бенто. Рис, рыба, овощи. "
+"Кажется, ещё теплые. "
+"После долгой прогулки любая еда будет казаться особенно вкусной. А эта была просто божественна."
+sf "Киоко, у тебя осталась вода?"
+sg "Да. А что случилось с твоей?"
+sf " Закончилась."
 
- show sf front hands_down open calm shout at gr with d
- show sg front hands_down_scarf open calm frown at gl with d
+show sf front hands_down open calm shout at gr with d
+show sg front hands_down_scarf open calm frown at gl with d
 
 sg "Так быстро?"
- sf " Я просто люблю пить."
+sf " Я просто люблю пить."
 
- show sf front hands_down open calm frown at gr with d
- show sg front hands_down_scarf open calm frown at gl with d
+show sf front hands_down open calm frown at gr with d
+show sg front hands_down_scarf open calm frown at gl with d
 
- "Получив флягу, Мари принялась жадно пить содержимое. "
- "Я хотела её остановить, ведь у нас не так много воды с собой. "
- show sf front hands_down open calm frown at gr with d
- show sg front hands_down_scarf open calm frown at gl with d
- "Если тратить запасы такими темпами, то до конца путешествия может не хватить... "
- "Хотя, думаю, ничего страшного, если Мари попьёт чуть больше, чем могла бы."
+"Получив флягу, Мари принялась жадно пить содержимое. "
+"Я хотела её остановить, ведь у нас не так много воды с собой. "
+show sf front hands_down open calm frown at gr with d
+show sg front hands_down_scarf open calm frown at gl with d
+"Если тратить запасы такими темпами, то до конца путешествия может не хватить... "
+"Хотя, думаю, ничего страшного, если Мари попьёт чуть больше, чем могла бы."
 
- show sf front hands_down open calm shout at gr with d
- show sg front hands_down_scarf open calm frown at gl with d
+show sf front hands_down open calm shout at gr with d
+show sg front hands_down_scarf open calm frown at gl with d
 
- sf " Ухх, хорошо пошла."
+sf " Ухх, хорошо пошла."
 
- show sf front hands_down open calm frown at gr with d
- show sg front hands_down_scarf open calm frown at gl with d
+show sf front hands_down open calm frown at gr with d
+show sg front hands_down_scarf open calm frown at gl with d
 
- "Ко мне вернулась наполовину опустевшая фляга. Убрав её и другие вещи обратно в рюкзак, я полезла к себе в палатку. "
+"Ко мне вернулась наполовину опустевшая фляга. Убрав её и другие вещи обратно в рюкзак, я полезла к себе в палатку. "
 
- show sf front hands_down open calm frown at gr with d
- show sg front hands_down_scarf open calm shout at gl with d
+show sf front hands_down open calm frown at gr with d
+show sg front hands_down_scarf open calm shout at gl with d
 
- sg " Тушим костёр?"
+sg " Тушим костёр?"
 
- show sf front hands_down open calm shout at gr with d
- show sg front hands_down_scarf open calm frown at gl with d
+show sf front hands_down open calm shout at gr with d
+show sg front hands_down_scarf open calm frown at gl with d
 
- sf " Зачем? Ничего страшного не случится, если он потухнет, когда мы уснём, а спать будет теплее."
+sf " Зачем? Ничего страшного не случится, если он потухнет, когда мы уснём, а спать будет теплее."
 
- show sf front hands_down open calm frown at gr with d
- show sg front hands_down_scarf open calm shout at gl with d
+show sf front hands_down open calm frown at gr with d
+show sg front hands_down_scarf open calm shout at gl with d
 
- sg " Спальных мешков было бы достаточно."
+sg " Спальных мешков было бы достаточно."
 
- show sf front hands_down open calm frown at gr with d
- show sg front hands_down_scarf open calm frown at gl with d
+show sf front hands_down open calm frown at gr with d
+show sg front hands_down_scarf open calm frown at gl with d
 
- "Ночь опустилась на лес. Тёплый свет костра тянулся к холодной луне. Маленькие огоньки заблестели на небе.  "
+"Ночь опустилась на лес. Тёплый свет костра тянулся к холодной луне. Маленькие огоньки заблестели на небе.  "
 
 scene bg night_sky with fade
 
- show sf front hands_down open calm frown at gr with d
- show sg front hands_down_scarf open calm frown at gl with d
+show sf front hands_down open calm frown at gr with d
+show sg front hands_down_scarf open calm frown at gl with d
 
- "Вот оно, можно коснуться пальцами, пересчитать каждую каждую звёздочку. Такое же, как дома. "
+"Вот оно, можно коснуться пальцами, пересчитать каждую каждую звёздочку. Такое же, как дома. "
 
- show sf front hands_down open calm frown at gr with d
- show sg front hands_down_scarf open calm frown at gl with d
+show sf front hands_down open calm frown at gr with d
+show sg front hands_down_scarf open calm frown at gl with d
 
- "Всё это место будто изнанка, последствия, которые оставляет после себя человеческая жизнь, а небо всё равно такое же как дома. "
- "Всё это место — будто символ того, что оставляет после себя человеческая жизнь. А небо всё равно такое же, как дома. "
+"Всё это место будто изнанка, последствия, которые оставляет после себя человеческая жизнь, а небо всё равно такое же как дома. "
+"Всё это место — будто символ того, что оставляет после себя человеческая жизнь. А небо всё равно такое же, как дома. "
 
- show sf front hands_down open calm frown at gr with d
- show sg front hands_down_scarf open calm frown at gl with d
-
-
- sf " Киоко, как думаешь, в тебя кто-нибудь влюблён?"
-
- show sf front hands_down open calm frown at gr with d
- show sg front hands_down_scarf open calm frown at gl with d
-
- "Ещё не потухшее пламя выхватило из темноты мои покрасневшие щёчки. Надеюсь, Мари этого не заметила."
-
- show sf front hands_down open calm frown at gr with d
- show sg front hands_down_scarf open calm shout at gl with d
-
- sg " Не знаю… Быть может, кто-то из старых друзей. А в тебя?"
-
- show sf front hands_down open calm shout at gr with d
- show sg front hands_down_scarf open calm frown at gl with d
-
- sf "Думаю, да."
-
- show sf front hands_down open calm frown at gr with d
- show sg front hands_down_scarf open calm shout at gl with d
-
- sg " И кто же это?"
-
- show sf front hands_down open calm shout at gr with d
- show sg front hands_down_scarf open calm frown at gl with d
-
- sf " Тоже кто-то из старых друзей. "
-
- show sf front hands_down open calm frown at gr with d
- show sg front hands_down_scarf open calm shout at gl with d
-
- sg " И… И давно ты знаешь, об этой влюблённости?"
-
- show sf front hands_down open calm shout at gr with d
- show sg front hands_down_scarf open calm frown at gl with d
-
- sf " Не очень. Но я не думаю отвечать ему взаимностью."
-
- show sf front hands_down open calm frown at gr with d
- show sg front hands_down_scarf open calm shout at gl with d
-
- sg " Ему?!"
-
- show sf front hands_down open calm shout at gr with d
- show sg front hands_down_scarf open calm frown at gl with d
-
- sf " Давай я тебе завтра расскажу. Хорошо? Спокойной ночи."
-
- show sf front hands_down open calm frown at gr with d
- show sg front hands_down_scarf open calm shout at gl with d
-
- sg " Спокойной ночи."
-
- show sf front hands_down open calm frown at gr with d
- show sg front hands_down_scarf open calm frown at gl with d
-
- "Зарывшись поглубже в спальный мешок, Мари быстро уснула. Я поспешила последовать за ней."
-
- show sf front hands_down open calm frown at gr with d
- show sg front hands_down_scarf open calm shout at gl with d
-
- sg " Завтра утром я ей обязательно во всём признаюсь."
- hide sg
- hide sf
- with d
+show sf front hands_down open calm frown at gr with d
+show sg front hands_down_scarf open calm frown at gl with d
 
 
- play music "audio/Daiichi.mp3" fadeout 1.6 fadein 1.6
- scene black with close_eyes
- pause 3.2
- scene bg woods_campfire_night with open_eyes
+sf " Киоко, как думаешь, в тебя кто-нибудь влюблён?"
 
- sf " Киоко!"
- "Всё произошло так быстро, я даже не успела понять. "
- "Ночь. "
- "Звёзды. "
- "Мы ложимся спать. "
- "И вот… "
- "Я выбралась из спального мешка так быстро, как только смогла. "
- "И только когда мои глаза полностью открылись, стало понятно, почему кричит Мари."
- pause 1.6
- scene cg pig1
- "Кабан."
- "Страшный дикий кабан. "
+show sf front hands_down open calm frown at gr with d
+show sg front hands_down_scarf open calm frown at gl with d
+
+"Ещё не потухшее пламя выхватило из темноты мои покрасневшие щёчки. Надеюсь, Мари этого не заметила."
+
+show sf front hands_down open calm frown at gr with d
+show sg front hands_down_scarf open calm shout at gl with d
+
+sg " Не знаю… Быть может, кто-то из старых друзей. А в тебя?"
+
+show sf front hands_down open calm shout at gr with d
+show sg front hands_down_scarf open calm frown at gl with d
+
+sf "Думаю, да."
+
+show sf front hands_down open calm frown at gr with d
+show sg front hands_down_scarf open calm shout at gl with d
+
+sg " И кто же это?"
+
+show sf front hands_down open calm shout at gr with d
+show sg front hands_down_scarf open calm frown at gl with d
+
+sf " Тоже кто-то из старых друзей. "
+
+show sf front hands_down open calm frown at gr with d
+show sg front hands_down_scarf open calm shout at gl with d
+
+sg " И… И давно ты знаешь, об этой влюблённости?"
+
+show sf front hands_down open calm shout at gr with d
+show sg front hands_down_scarf open calm frown at gl with d
+
+sf " Не очень. Но я не думаю отвечать ему взаимностью."
+
+show sf front hands_down open calm frown at gr with d
+show sg front hands_down_scarf open calm shout at gl with d
+
+sg " Ему?!"
+
+show sf front hands_down open calm shout at gr with d
+show sg front hands_down_scarf open calm frown at gl with d
+
+sf " Давай я тебе завтра расскажу. Хорошо? Спокойной ночи."
+
+show sf front hands_down open calm frown at gr with d
+show sg front hands_down_scarf open calm shout at gl with d
+
+sg " Спокойной ночи."
+
+show sf front hands_down open calm frown at gr with d
+show sg front hands_down_scarf open calm frown at gl with d
+
+"Зарывшись поглубже в спальный мешок, Мари быстро уснула. Я поспешила последовать за ней."
+
+show sf front hands_down open calm frown at gr with d
+show sg front hands_down_scarf open calm shout at gl with d
+
+sg " Завтра утром я ей обязательно во всём признаюсь."
+hide sg
+hide sf
+with d
+
+
+play music "audio/Daiichi.mp3" fadeout 1.6 fadein 1.6
+scene black with close_eyes
+pause 3.2
+scene bg woods_campfire_night with open_eyes
+
+sf " Киоко!"
+"Всё произошло так быстро, я даже не успела понять. "
+"Ночь. "
+"Звёзды. "
+"Мы ложимся спать. "
+"И вот… "
+"Я выбралась из спального мешка так быстро, как только смогла. "
+"И только когда мои глаза полностью открылись, стало понятно, почему кричит Мари."
+pause 1.6
+scene cg pig1
+"Кабан."
+"Страшный дикий кабан. "
 "Он пришёл, чтобы забрать нашу еду?!"
 "Или выгнать нас со своей территории?!"
- "Я не знаю. "
- "Не было времени думать."
- "Схватив рюкзак, я привлекла его внимание и помчалась прочь."
- play sound "audio/sound/run.mp3"
- "Бежала."
- "Бежала без оглядки. "
- "Сквозь кусты, деревья, усилившийся снег."
- "Пока наконец не упёрлась в болото."
+"Я не знаю. "
+"Не было времени думать."
+"Схватив рюкзак, я привлекла его внимание и помчалась прочь."
+play sound "audio/sound/run.mp3"
+"Бежала."
+"Бежала без оглядки. "
+"Сквозь кусты, деревья, усилившийся снег."
+"Пока наконец не упёрлась в болото."
 
- show bg lake_storm with d
+show bg lake_storm with d
 
- "Большое, на сколько хватало глаз. "
- "Эту топь не обойти."
- "Особенно когда тебя загнали в ловушку."
- "Небольшой островок земли, вдававшийся в топь, был абсолютно пустым. "
- "Ни деревьев, ни даже кустов."
- "С одной стороны трясина, с другой разъярённый звёрь."
- "Он визжал, хрюкал и бил копытом землю. "
- play sound "audio/sound/pig.mp3"
- scene cg pig2
- "Была не была."
- play sound "audio/sound/jump.mp3"
- "Островок земли."
- "За ним ещё и ещё один."
- "Прыжок за прыжком я удалялась от берега."
- "Насколько глубока топь? "
- "Как далеко кабан? "
- "Где Мари?"
- "Не сейчас."
- "Потом."
- "Сейчас надо убежать как можно дальше."
- play sound "audio/sound/jump.mp3"
- "Усилившийся снегопад превращал болото в ровную белую гладь. "
- "Становилось всё труднее находить островки земли. "
- "Они всё меньше выделялись на белом покрове."
- "Нога соскользнула, и я потеряла равновесие."
- "Холодная, густая, мерзкая жижа обволокла ноги. "
- sg " Нет!"
- sg " Я не могу!"
- sg " Надо идти дальше!"
- "Слёзы, проступившие на глазах, потекли ручьём. "
- "Ситуация становилась всё хуже и хуже."
- play sound "audio/sound/snowwater.mp3"
+"Большое, на сколько хватало глаз. "
+"Эту топь не обойти."
+"Особенно когда тебя загнали в ловушку."
+"Небольшой островок земли, вдававшийся в топь, был абсолютно пустым. "
+"Ни деревьев, ни даже кустов."
+"С одной стороны трясина, с другой разъярённый звёрь."
+"Он визжал, хрюкал и бил копытом землю. "
+play sound "audio/sound/pig.mp3"
+scene cg pig2
+"Была не была."
+play sound "audio/sound/jump.mp3"
+"Островок земли."
+"За ним ещё и ещё один."
+"Прыжок за прыжком я удалялась от берега."
+"Насколько глубока топь? "
+"Как далеко кабан? "
+"Где Мари?"
+"Не сейчас."
+"Потом."
+"Сейчас надо убежать как можно дальше."
+play sound "audio/sound/jump.mp3"
+"Усилившийся снегопад превращал болото в ровную белую гладь. "
+"Становилось всё труднее находить островки земли. "
+"Они всё меньше выделялись на белом покрове."
+"Нога соскользнула, и я потеряла равновесие."
+"Холодная, густая, мерзкая жижа обволокла ноги. "
+sg " Нет!"
+sg " Я не могу!"
+sg " Надо идти дальше!"
+"Слёзы, проступившие на глазах, потекли ручьём. "
+"Ситуация становилась всё хуже и хуже."
+play sound "audio/sound/snowwater.mp3"
 
- play music "audio/Death.mp3" fadeout 1.6 fadein 1.6
+play music "audio/Death.mp3" fadeout 1.6 fadein 1.6
 
- "Обессиленная, я выбралась на другой берег. "
- "И сразу же села на землю. "
- "Снег не прекращал падать, засыпая всё вокруг."
- sg " Мариии!"
- sg " МАРИИИ!"
- "Я кричала. "
- "Кричала изо всех оставшихся сил. "
- "Но никто не отвечал."
- show bg night_sky with d
- sg " Неужели…"
- sg " Неужели она убежала."
- sg " А я? "
- sg " Как же я?"
- pause 3.2
- "Стало слишком холодно. Лишившись тепла костра и палатки, можно было очень быстро окоченеть. "
- "И даже адреналин, так активно ускоряющий сердцебиение, не помощник в таких условиях. "
- "Неподалёку хватало домов, которые могли защитить от ветра и снега. "
- "Просто необходимо укрыться в одном из них."
- sg " Нет."
- "Иначе просто занесёт снегом."
- sg " Пускай."
- "И ты хочешь умереть здесь? "
- "Умереть вот так?"
- sg " Да…"
- sg " Так будет лучше."
- "Кому?"
+"Обессиленная, я выбралась на другой берег. "
+"И сразу же села на землю. "
+"Снег не прекращал падать, засыпая всё вокруг."
+sg " Мариии!"
+sg " МАРИИИ!"
+"Я кричала. "
+"Кричала изо всех оставшихся сил. "
+"Но никто не отвечал."
+show bg night_sky with d
+sg " Неужели…"
+sg " Неужели она убежала."
+sg " А я? "
+sg " Как же я?"
+pause 3.2
+"Стало слишком холодно. Лишившись тепла костра и палатки, можно было очень быстро окоченеть. "
+"И даже адреналин, так активно ускоряющий сердцебиение, не помощник в таких условиях. "
+"Неподалёку хватало домов, которые могли защитить от ветра и снега. "
+"Просто необходимо укрыться в одном из них."
+sg " Нет."
+"Иначе просто занесёт снегом."
+sg " Пускай."
+"И ты хочешь умереть здесь? "
+"Умереть вот так?"
+sg " Да…"
+sg " Так будет лучше."
+"Кому?"
 "Тем, кто найдёт тело?"
- "Твоим родителям?"
- "Друзьям?"
- "Близким?"
- "Мари?"
- sg " Всем."
- sg " Всем будет лучше, если я просто умру."
+"Твоим родителям?"
+"Друзьям?"
+"Близким?"
+"Мари?"
+sg " Всем."
+sg " Всем будет лучше, если я просто умру."
 
 
- scene black with close_eyes
- pause 3.2
- play music "audio/Homeless at the Ruins.mp3" fadeout 1.6 fadein 1.6
+scene black with close_eyes
+pause 3.2
+play music "audio/Homeless at the Ruins.mp3" fadeout 1.6 fadein 1.6
 
- "Я помню, как мы впервый раз встретились."
- "Из-за переезда мне пришлось поменять школу."
- "Класс дружелюбно принял меня, но в нём уже сформировались круги общения и ни в один меня не взяли."
- "Было грустно слышать дружелюбные приветствия, а потом весь день проводить в одиноком молчании. "
- "Всё изменилось, когда в класс вернулась Мари. Болезнь заставила её пропустить месяц учёбы. "
- " Весь класс не мог дождаться, когда вновь сможет пообщаться с ней, но первым, с кем она заговорила, была я."
- "Тёплые воспоминания ускользающей жизни."
- "Они грели душу. "
- "А вместе с ней и всё тело."
- "Обволакивающим, мягким, шерстяным теплом."
- scene bg farm_night with open_eyes
- stop music fadeout 5
- om " Эхх… Ещё бы чуть-чуть, и на одного снеговика было бы больше. Хорошо, что тёплое одеяло нашлось."
- sg " А… Вы кто?"
- om " Думаю, это сейчас не так важно. Сначало нужно тебя согреть и высушить."
- om " Ты же не хочешь простудиться?"
- "Я помотала головой.  "
- om " Вот и хорошо."
- play music "audio/Day.mp3" fadein 5
- "Старичок протянул руку и помог подняться. "
- "Кажется, силы окончательно покинули меня."
- om " Ничего не забыла?"
- sg " Нет."
- om " А шарф?  Вон тот. Не будем доставать?"
- "Он указал на розовый кусок ткани, лежащий на поверхности топи. "
- "Оставшись там, после моего падения, шарф заносился снегом, постепенно скрываясь с моих глаз."
- sg " Обойдусь без него."
- om " Как знаешь."
- scene bg black with d
- stop music  fadeout 5
- pause 1.6
- om " Я, кстати, Фуджимото."
- sg " Киоко."
- om " И что же ты здесь делаешь одна, Киоко?"
- $ renpy.notify("Поздравляем, рут школьницы пройден!")
- sg " Думаю, это сейчас не так важно..."
-$ f1 = 1
+"Я помню, как мы впервый раз встретились."
+"Из-за переезда мне пришлось поменять школу."
+"Класс дружелюбно принял меня, но в нём уже сформировались круги общения и ни в один меня не взяли."
+"Было грустно слышать дружелюбные приветствия, а потом весь день проводить в одиноком молчании. "
+"Всё изменилось, когда в класс вернулась Мари. Болезнь заставила её пропустить месяц учёбы. "
+" Весь класс не мог дождаться, когда вновь сможет пообщаться с ней, но первым, с кем она заговорила, была я."
+"Тёплые воспоминания ускользающей жизни."
+"Они грели душу. "
+"А вместе с ней и всё тело."
+"Обволакивающим, мягким, шерстяным теплом."
+scene bg farm_night with open_eyes
+stop music fadeout 5
+om " Эхх… Ещё бы чуть-чуть, и на одного снеговика было бы больше. Хорошо, что тёплое одеяло нашлось."
+sg " А… Вы кто?"
+om " Думаю, это сейчас не так важно. Сначало нужно тебя согреть и высушить."
+om " Ты же не хочешь простудиться?"
+"Я помотала головой.  "
+om " Вот и хорошо."
+play music "audio/Day.mp3" fadein 5
+"Старичок протянул руку и помог подняться. "
+"Кажется, силы окончательно покинули меня."
+om " Ничего не забыла?"
+sg " Нет."
+om " А шарф?  Вон тот. Не будем доставать?"
+"Он указал на розовый кусок ткани, лежащий на поверхности топи. "
+"Оставшись там, после моего падения, шарф заносился снегом, постепенно скрываясь с моих глаз."
+sg " Обойдусь без него."
+om " Как знаешь."
+scene bg black with d
+stop music fadeout 5
+stop sound fadeout 1
+pause 1.6
+om " Я, кстати, Фуджимото."
+sg " Киоко."
+om " И что же ты здесь делаешь одна, Киоко?"
+$ renpy.notify("Поздравляем, рут школьницы пройден!")
+$ persistent.route_sg = True
+sg " Думаю, это сейчас не так важно..."
 window hide
 pause(2)
 window auto

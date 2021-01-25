@@ -832,13 +832,12 @@ label start_returner:
     stop music fadeout 5
     "Ладно, была не была. "
     $ renpy.notify("Поздравляем, рут возвращенца пройден!")
+    $ persistent.route_rtn = True
     "Мы прошли мимо нескольких перекрестков, я сошел с дороги и последовал вслед за дедом в лес, оставив позади храм, арендованную 'Тойоту' с кучей пластинок на заднем сиденье, и родной дом."
     hide screen dozimetr
     window hide
     pause(2)
     window auto
     ###
-
-    $ f3 = 1
     ###
     return
