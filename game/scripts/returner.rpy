@@ -651,8 +651,8 @@ label start_returner:
     "В тусклом свете трудно было разглядеть черты его лица, и в какой-то момент я засомневался, что передо мной вообще мужчина. "
     stop music fadeout 5
     "Но, не открывая глаз, он вдруг заговорил."
-    hide trader with d
     show oldman closed calm frown at center with d
+    hide trader with d
     om "Дайте мне... еще минуту."
     om "Не торопитесь."
 
