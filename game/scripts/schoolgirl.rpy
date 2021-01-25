@@ -19,7 +19,7 @@ label start_schoolgirl:
  play music "audio/Homeless at the Ruins.mp3" fadeout 1.6 fadein 1.6
  scene bg city_road  with d
  show sf side hands_down closed sad smile at gr with d
- sf " Как тут тихо. И вокруг никого никого. "
+ sf " Как тут тихо. И вокруг никого. "
  show sg front hands_down_scarf open sad happy at gl with d
  sg "А как же полицейские на дороге?"
  show sf front hands_down open calm smile at gr with d
@@ -28,7 +28,7 @@ label start_schoolgirl:
  show sf side hands_up open raised frown at gr with d
  sf " И почему ты решилась на это путешествие?"
  show sg front hands_down_scarf closed calm smile at gl with d
- sg "Не знаю. Наверно потому, что мы давно никуда ходили вместе."
+ sg "Не знаю. Наверное, потому, что мы давно никуда не ходили вместе."
 
  hide sg
  hide sf
@@ -48,7 +48,7 @@ label start_schoolgirl:
  sg "Почти десять лет назад."
  sf " Сколько же всего произошло с тех пор. Почему сюда никто не вернулся?"
  sg " Нельзя. Слишком опасно."
- sf " Не знаю. По-моему всё безопасно."
+ sf " Не знаю. По-моему, всё безопасно..."
 
  hide sg
  hide sf
@@ -59,16 +59,16 @@ label start_schoolgirl:
  "Сначала эвакуировались только ближайшие районы. Три километра, потом десять, а затем расширили и до двадцати."
  "Тех, кто жил дальше, попросили не выходить из жилищ."
  "Паника охватила население. Они спешно покидали опасную территорию, оставляя нажитое имущество. "
- "Говорят, кому-то пришлось переезжать больше шести рпз из-за того, что зону эвакуации постоянно расширяли. "
+ "Говорят, кому-то пришлось переезжать больше шести раз из-за того, что зону эвакуации постоянно расширяли. "
  "Про больницы страшно вспоминать."
- "Кто-то погиб в пути, кто-то вскоре после, кто-то из-за недостатка медицинской помощи."
+ "Кто-то погиб в пути, кто-то сразу после, кто-то из-за недостатка медицинской помощи."
 
  show sf front hands_down wide_open calm frown at gr with d
  show sg side hands_down_scarf open calm shout at gl with d
  sg " Подожди, у тебя шарф развязался."
  show sf side hands_down closed calm smile at gr with d
  show sg side hands_down_scarf open calm smile at gl with d
- " Остановилась и заново повязала свой шарф. Розовая ткань не только прекрасно смотрелась, но и хорошо грела."
+ "Мари остановилась и заново повязала свой шарф. Розовая ткань не только прекрасно смотрелась, но и хорошо грела."
  show sg side hands_up_scarf closed calm smile at gl with d
  "Именно поэтому мы когда-то выбрали эти шарфики."
  show sg front hands_down_scarf wide_open calm smile at gl with d
@@ -88,7 +88,7 @@ label start_schoolgirl:
  sg " Мне кажется, нам стоит остановиться где-то здесь. Скоро станет темно. Да и есть немного хочется "
  show sf front hands_down open raised shout at gr with d
  show sg front hands_down_scarf open calm frown at gl with d
- sf " Но мы только только пришли. Давай хотя бы до следующей деревни дойдём."
+ sf " Но мы только-только пришли. Давай хотя бы до следующей деревни дойдём."
  show sf side hands_down open calm frown at gr with d
  show sg front hands_down_scarf open calm frown at gl with d
  "Мари ткнула пальцем в карту, которую я держала перед собой."
@@ -99,13 +99,13 @@ label start_schoolgirl:
  sg " По дороге слишком долго, нам придётся идти через лес."
  show sf front hands_down open calm frown at gr with d
  show sg front hands_down_scarf open sad frown at gl with d
- sf " Трусишка Киоко! Трусишка Киоко! Боиться идти через лес."
+ sf " Трусишка Киоко! Трусишка Киоко! Боится идти через лес."
  show sf front hands_down closed calm smile at gr with d
  show sg front hands_down_scarf open angry speak at gl with d
  sg " Я не… не боюсь. Просто хотела остаться на ночь в доме. А если мы не успеем, то нам придётся спать в лесу."
  show sf side hands_up calm smile at gr with d
  show sg front hands_down_scarf open angry speak at gl with d
- sf " Спать в палатке. Под открытым небом. В пустом пустом лесу. {p=0.8} Так романтично."
+ sf " Спать в палатке. Под открытым небом. В пустом лесу. {p=1.0} Так романтично."
  hide sg
  hide sf
  with d
@@ -128,13 +128,13 @@ label start_schoolgirl:
  sf " И что же? Что ты пойдёшь гулять по закрытым территориям?"
  show sf front hands_down open calm smile at gr with d
  show sg front hands_down_scarf closed calm shout at gl with d
- sg " Нет конечно. Я сказала, что побуду у тебя. "
+ sg "Нет, конечно. Я сказала, что побуду у тебя. "
  show sf side hands_up closed calm frown at gr with d
  show sg front hands_down_scarf open calm frown at gl with d
  "Мари развернулась и пригрозила мне пальцем."
  show sf side hands_up open angry frown at gr with d
  show sg front hands_down_scarf open calm frown at gl with d
- sf " Айайай, врать родителям не хорошо, Киоко."
+ sf "Ай-ай-ай, врать родителям нехорошо, Киоко."
  show sf front hands_down open calm frown at gr with d
  show sg front hands_down_scarf open calm sout at gl with d
  sg " А ты что сказала?"
@@ -148,12 +148,12 @@ label start_schoolgirl:
  play music "audio/Campfire.mp3" fadeout 1.6 fadein 1.6
 
  "Пейзаж сменился на более спокойный. Место, когда-то у них отобранное, вновь заняли животные. "
- "Пустой пустой лес встречал нас распростёртыми ветвями. Здесь снег лежал толстым слоем и приятнее хрустел под ногами . "
+ "Лес встречал нас распростёртыми ветвями. Здесь снег лежал толстым слоем и приятнее хрустел под ногами . "
  play sound "audio/sound/snow.mp3"
- "Здесь птицы летали над головой. Здесь даже пробежала лисичка. "
+ "Здесь птицы летали над головой. Здесь, если нам не показалось, даже пробежала лисичка. "
  "Даже я не до конца понимаю, как решилась на это путешествие. Но услышав согласие от Мари, я поняла - это мой  шанс. "
  "Ведь в пути нужен попутчик, а в жизни – друг. "
- "У этого путешествия есть очень важная цель. Я уже очень давно хочу признаться ей в кое чём и здесь нам точно никто не помешает."
+ "У этого путешествия есть очень важная цель. Я уже очень давно хочу признаться ей кое в чём, и здесь нам точно никто не помешает."
 
 
  show sf front hands_down open calm shout at gr with d
@@ -166,19 +166,19 @@ label start_schoolgirl:
 
  show sf front hands_down open calm shout at gr with d
  show sg front hands_down_scarf open calm frown at gl with d
- sf " Получается ты выбрала школу, потому что её выбрала я?"
+ sf "Получается, ты выбрала школу, потому что её выбрала я?"
 
  show sf front hands_down open calm frown at gr with d
  show sg front hands_down_scarf open calm shout at gl with d
- sg " Получается так."
+ sg "Получается, так."
 
  hide sg
  hide sf
  with d
  show bg woods_campfire_day with d
 
- "Солнце скрывалось за листвой. до деревни мы не дошли и пока не стало слишком поздно, решили развести костёр. "
- "Оставив рюкзаки мы начали собирать хворост."
+ "Солнце скрывалось за листвой. До деревни мы не дошли, и, пока не стало слишком поздно, решили развести костёр."
+ "Оставив рюкзаки, мы начали собирать хворост."
 
  show sf side hands_down open angry shout at gr with d
  show sg front hands_down_scarf open calm frown at gl with d
@@ -199,7 +199,7 @@ label start_schoolgirl:
  show sg front hands_down_scarf open calm shout at gl with d
 
  sg " Теперь спички. И… {p=0.8} почти готово."
- # play sound "audio/sound/snowball.mp3"
+ play sound "audio/sound/snowball.mp3"
 
  show sf front hands_down open calm shout at gr with d
  show sg front hands_down_scarf open calm frown at gl with d
@@ -217,7 +217,8 @@ label start_schoolgirl:
  show sg front hands_down_scarf open calm frown at gl with d
 
  play sound "audio/sound/snowball.mp3"
- sf " Тебе просто повезло!"
+ sg "Не попала! Не попала!"
+ sf "Тебе просто повезло!"
  play sound "audio/sound/snowballplay.mp3"
  pause 1.6
  sf " Ну вот. Теперь я вся мокрая."
@@ -270,7 +271,7 @@ label start_schoolgirl:
  show sf front hands_down open calm shout at gr with d
  show sg front hands_down_scarf open calm frown at gl with d
 
- sf " Палатку. Как ставиться твоя я не знаю. "
+ sf " Палатку. Как ставится твоя, я не знаю. "
 
  show sf front hands_down open calm frown at gr with d
  show sg front hands_down_scarf open calm frown at gl with d
@@ -280,25 +281,29 @@ label start_schoolgirl:
  scene bg woods_campfire_night with d
  play music "audio/Anaemia.mp3" fadeout 1.6 fadein 1.6
 
- "Разобравшись с костром и палатками мы принялись за еду. В рюкзаках было достаточно сладостей, "
- "но начался совместный ужин с бенто. Рис, рыба, овощи. Кажется ещё теплые. "
+ "Разобравшись с костром и палатками, мы принялись за еду. В рюкзаках было достаточно сладостей, "
+ "но начался совместный ужин с бенто. Рис, рыба, овощи. "
+ "Кажется, ещё теплые. "
  "После долгой прогулки любая еда будет казаться особенно вкусной. А эта была просто божественна."
+ sf "Киоко, у тебя осталась вода?"
+ sg "Да. А что случилось с твоей?"
  sf " Закончилась."
 
  show sf front hands_down open calm shout at gr with d
  show sg front hands_down_scarf open calm frown at gl with d
 
+sg "Так быстро?"
  sf " Я просто люблю пить."
 
  show sf front hands_down open calm frown at gr with d
  show sg front hands_down_scarf open calm frown at gl with d
 
- "Получив флягу Мари принялась жадно пить содержимое. Я хотела её остановить, ведь у нас не так много воды с собой и если тратить запасы такими темпами, "
-
+ "Получив флягу, Мари принялась жадно пить содержимое. "
+ "Я хотела её остановить, ведь у нас не так много воды с собой. "
  show sf front hands_down open calm frown at gr with d
  show sg front hands_down_scarf open calm frown at gl with d
-
- "то до конца путешествия может не хватить, но думаю ничего страшного, если Мари попьёт чуть больше чем могла бы."
+ "Если тратить запасы такими темпами, то до конца путешествия может не хватить... "
+ "Хотя, думаю, ничего страшного, если Мари попьёт чуть больше, чем могла бы."
 
  show sf front hands_down open calm shout at gr with d
  show sg front hands_down_scarf open calm frown at gl with d
@@ -308,7 +313,7 @@ label start_schoolgirl:
  show sf front hands_down open calm frown at gr with d
  show sg front hands_down_scarf open calm frown at gl with d
 
- "Ко мне вернулась на половину опустевшая фляга. Убрав её и другие вещи обратно в рюкзак, я полезла к себе в палатку. "
+ "Ко мне вернулась наполовину опустевшая фляга. Убрав её и другие вещи обратно в рюкзак, я полезла к себе в палатку. "
 
  show sf front hands_down open calm frown at gr with d
  show sg front hands_down_scarf open calm shout at gl with d
@@ -330,10 +335,10 @@ label start_schoolgirl:
 
  "Ночь опустилась на лес. Тёплый свет костра тянулся к холодной луне. Маленькие огоньки заблестели на небе.  "
 
+scene bg night_sky with fade
+
  show sf front hands_down open calm frown at gr with d
  show sg front hands_down_scarf open calm frown at gl with d
-
-
 
  "Вот оно, можно коснуться пальцами, пересчитать каждую каждую звёздочку. Такое же, как дома. "
 
@@ -341,6 +346,7 @@ label start_schoolgirl:
  show sg front hands_down_scarf open calm frown at gl with d
 
  "Всё это место будто изнанка, последствия, которые оставляет после себя человеческая жизнь, а небо всё равно такое же как дома. "
+ "Всё это место — будто символ того, что оставляет после себя человеческая жизнь. А небо всё равно такое же, как дома. "
 
  show sf front hands_down open calm frown at gr with d
  show sg front hands_down_scarf open calm frown at gl with d
@@ -351,17 +357,17 @@ label start_schoolgirl:
  show sf front hands_down open calm frown at gr with d
  show sg front hands_down_scarf open calm frown at gl with d
 
- "Ещё не потухшее пламя выхватила из темноты мои покрасневшие щёчки. Надеюсь Мари этого не заметила."
+ "Ещё не потухшее пламя выхватило из темноты мои покрасневшие щёчки. Надеюсь, Мари этого не заметила."
 
  show sf front hands_down open calm frown at gr with d
  show sg front hands_down_scarf open calm shout at gl with d
 
- sg " Не знаю… Быть может кто-то из старых друзей. А в тебя?"
+ sg " Не знаю… Быть может, кто-то из старых друзей. А в тебя?"
 
  show sf front hands_down open calm shout at gr with d
  show sg front hands_down_scarf open calm frown at gl with d
 
- sf " Думаю да."
+ sf "Думаю, да."
 
  show sf front hands_down open calm frown at gr with d
  show sg front hands_down_scarf open calm shout at gl with d
@@ -406,7 +412,7 @@ label start_schoolgirl:
  show sf front hands_down open calm frown at gr with d
  show sg front hands_down_scarf open calm shout at gl with d
 
- sg " Завтра утром я ей обязательно во всём признаюсь признаюсь."
+ sg " Завтра утром я ей обязательно во всём признаюсь."
  hide sg
  hide sf
  with d
@@ -424,16 +430,16 @@ label start_schoolgirl:
  "Мы ложимся спать. "
  "И вот… "
  "Я выбралась из спального мешка так быстро, как только смогла. "
- "И только когда мои глаза полностью открылись, стало понятно почему кричит Мари."
+ "И только когда мои глаза полностью открылись, стало понятно, почему кричит Мари."
  pause 1.6
  scene cg pig1
  "Кабан."
  "Страшный дикий кабан. "
- "Он пришёл чтобы забрать нашу еду?! "
- "Или избавить свою территорию от нас?!"
+"Он пришёл, чтобы забрать нашу еду?!"
+"Или выгнать нас со своей территории?!"
  "Я не знаю. "
  "Не было времени думать."
- "Схватив рюкзак, я привлекала его внимание и помчалась прочь."
+ "Схватив рюкзак, я привлекла его внимание и помчалась прочь."
  play sound "audio/sound/run.mp3"
  "Бежала."
  "Бежала без оглядки. "
@@ -444,19 +450,19 @@ label start_schoolgirl:
 
  "Большое, на сколько хватало глаз. "
  "Эту топь не обойти."
- "Особенно, когда тебя загнали в ловушку."
- "Небольшой островок земли выдававшийся в топь был абсолютно пустым. "
+ "Особенно когда тебя загнали в ловушку."
+ "Небольшой островок земли, вдававшийся в топь, был абсолютно пустым. "
  "Ни деревьев, ни даже кустов."
  "С одной стороны трясина, с другой разъярённый звёрь."
  "Он визжал, хрюкал и бил копытом землю. "
  play sound "audio/sound/pig.mp3"
  scene cg pig2
- "Была, не была."
+ "Была не была."
  play sound "audio/sound/jump.mp3"
  "Островок земли."
  "За ним ещё и ещё один."
  "Прыжок за прыжком я удалялась от берега."
- "На сколько глубока топь? "
+ "Насколько глубока топь? "
  "Как далеко кабан? "
  "Где Мари?"
  "Не сейчас."
@@ -466,7 +472,7 @@ label start_schoolgirl:
  "Усилившийся снегопад превращал болото в ровную белую гладь. "
  "Становилось всё труднее находить островки земли. "
  "Они всё меньше выделялись на белом покрове."
- "Нога соскользнула и я потеряла равновесие. "
+ "Нога соскользнула, и я потеряла равновесие."
  "Холодная, густая, мерзкая жижа обволокла ноги. "
  sg " Нет!"
  sg " Я не могу!"
@@ -503,7 +509,7 @@ label start_schoolgirl:
  sg " Да…"
  sg " Так будет лучше."
  "Кому?"
- "Тем кто найдёт тело?"
+"Тем, кто найдёт тело?"
  "Твоим родителям?"
  "Друзьям?"
  "Близким?"
@@ -514,33 +520,33 @@ label start_schoolgirl:
 
  scene black with close_eyes
  pause 3.2
- play sound "audio/sound/crybabycry.mp3"
-
  play music "audio/Homeless at the Ruins.mp3" fadeout 1.6 fadein 1.6
 
  "Я помню, как мы впервый раз встретились."
- "Из-за переезда, мне пришлось поменять школу."
+ "Из-за переезда мне пришлось поменять школу."
  "Класс дружелюбно принял меня, но в нём уже сформировались круги общения и ни в один меня не взяли."
- "Было грустно слышать дружелюбные приветствия, а потом весь день проводит в одиноком молчании. "
+ "Было грустно слышать дружелюбные приветствия, а потом весь день проводить в одиноком молчании. "
  "Всё изменилось, когда в класс вернулась Мари. Болезнь заставила её пропустить месяц учёбы. "
- "По её возвращению весь класс не мог дождаться, когда вновь сможет пообщаться с ней, но первым, с кем она заговорила, была я."
+ " Весь класс не мог дождаться, когда вновь сможет пообщаться с ней, но первым, с кем она заговорила, была я."
  "Тёплые воспоминания ускользающей жизни."
  "Они грели душу. "
  "А вместе с ней и всё тело."
  "Обволакивающим, мягким, шерстяным теплом."
  scene bg farm_night with open_eyes
- om " Эхх… Ещё бы чуть-чуть и на одного снеговика было бы больше. Хорошо, что тёплое одеяло нашлось."
+ stop music fadeout 5
+ om " Эхх… Ещё бы чуть-чуть, и на одного снеговика было бы больше. Хорошо, что тёплое одеяло нашлось."
  sg " А… Вы кто?"
- om " Думаю это сейчас не так важно. Сначало нужно тебя согреть и высушить."
+ om " Думаю, это сейчас не так важно. Сначало нужно тебя согреть и высушить."
  om " Ты же не хочешь простудиться?"
  "Я помотала головой.  "
  om " Вот и хорошо."
+ play music "audio/Day.mp3" fadein 5
  "Старичок протянул руку и помог подняться. "
  "Кажется, силы окончательно покинули меня."
  om " Ничего не забыла?"
  sg " Нет."
  om " А шарф?  Вон тот. Не будем доставать?"
- "Он указал на розовый кусок ткани, лежавший на поверхности топи. "
+ "Он указал на розовый кусок ткани, лежащий на поверхности топи. "
  "Оставшись там, после моего падения, шарф заносился снегом, постепенно скрываясь с моих глаз."
  sg " Обойдусь без него."
  om " Как знаешь."
@@ -549,9 +555,9 @@ label start_schoolgirl:
  pause 1.6
  om " Я, кстати, Фуджимото."
  sg " Киоко."
- om " И что же ты здесь делаешь одна Киоко?"
+ om " И что же ты здесь делаешь одна, Киоко?"
  $ renpy.notify("Поздравляем, рут школьницы пройден!")
- sg " Думаю это сейчас не так важно..."
+ sg " Думаю, это сейчас не так важно..."
 $ f1 = 1
 window hide
 pause(2)
