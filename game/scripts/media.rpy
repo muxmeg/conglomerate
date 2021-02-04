@@ -71,7 +71,9 @@ init 1:
                 "images/characters/kitamura/B/rt4.png"
             attribute speak:
                 "images/characters/kitamura/B/rt5.png"
-
+        group knife:
+            attribute knife:
+                "images/characters/kitamura/knife.png"
 
     layeredimage oldman:
         group pose:
